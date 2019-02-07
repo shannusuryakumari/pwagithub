@@ -1,0 +1,47 @@
+{
+	"profile":{
+		"img":"pexels-photo-58997.jpeg",
+		"name":"mounika",
+		"roll":"17a31a1227",
+		"institute":"pragati college",
+		"place":"kakinada"
+	},
+	"career":{
+		"info":" to become a software engineer"
+	},
+	"education":[
+{
+    "Sno":"1",
+    "degree":"b.tech",
+    "institute":"pragati",
+    "yop":"2021"
+            },
+            {
+    "Sno":"2",
+    "degree":"intermediate",
+    "institute":"tirumala",
+    "yop":"2017"
+            },
+            {
+    "Sno":"3",
+    "degree":"s.s.c",
+    "institute":"sri chaitanya",
+    "yop":"2015"
+            }
+            ],
+	"languages":[
+
+		    {
+			"lang":"English"
+		    },
+		    {
+			"lang":"hindi"
+		    },
+		    {
+			"lang":"telugu"
+		    },
+		    {
+			"lang":"tamil"
+		}
+	]
+}

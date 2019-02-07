@@ -1,0 +1,101 @@
+/*desktop view*/
+body{
+	background: pink;
+}
+#main{
+	background: seagreen;
+	margin: 3%;
+	display: flex;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: aqua;
+	margin:4%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+	width: 25%;
+	height: 55%;
+}	
+.rightdiv{
+	background: blue;
+	border-radius: 5%;
+	margin:4%;
+	box-shadow: 4px 4px 4px 4px;
+	width: 59%;
+	padding:2%;
+}
+img{
+	width: 70%;
+	height: 35%;
+	margin: 3%;
+	border-radius: 4%;
+
+}
+/*mobile view*/
+@media screen and (max-width:480px) {
+body{
+	background:blue;
+}	
+#main{
+	background: blue;
+	margin: 1%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: #1785DB;
+	margin:2%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 96%;
+	height: 40%;
+	
+}
+.rightdiv{
+	background: #768FA2;
+	border-radius: 5%;
+	margin:2%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 92%;
+	padding:2%;
+}
+}
+img{
+	width: 50%;
+	height: 25%;
+	margin: 2%;
+	border-radius: 20%;
+
+}
+/*tab view*/
+@media screen and (min-width:481px) and (max-width:1024px) {
+body{
+	background:bisque;
+}	
+#main{
+	background: orange;
+	margin: 2%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: #26C439;
+	margin:2%;
+	border-radius: 5%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 96%;
+	height: 40%;
+	
+}
+.rightdiv{
+	background: #33FFF0;
+	border-radius: 5%;
+	margin:4%;
+	box-shadow: 1px 1px 1px 1px;
+	width: 90%;
+	padding:2%;
+}
+}
